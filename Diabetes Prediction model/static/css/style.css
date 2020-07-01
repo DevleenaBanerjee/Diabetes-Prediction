@@ -1,0 +1,69 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+html { width: 100%; height:100%; overflow:hidden; }
+
+body { 
+	width: 100%;
+	height:100%;
+	font-family: 'Roboto';
+	background: #092756;
+	color: #fff;
+	font-size: 18px;
+	text-align:center;
+	letter-spacing:1.2px;
+	background-image: url("Diabetes.jpg"); 
+	background-size: cover;
+	height: 100%;
+	overflow: hidden;
+	
+}
+}
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3E1D6D', endColorstr='#092756',GradientType=1 );
+
+}
+.login { 
+	position: absolute;
+	top: 30%;
+	left: 40%;
+	margin: -150px 0 0 -100px;
+	width:400px;
+	height:400px;
+}
+
+.login h1 { 
+	color: #fff; 
+	text-shadow: 0 0 10px rgba(0,0,0,0.3); 
+	letter-spacing:1px; 
+	background-color: hsl(0, 100%, 90%);
+	text-align:center; }
+
+input[type=text] { 
+	width: 60%; 
+	margin-bottom: 10px; 
+	background: rgba(0,0,0,0.3);
+    border-left: 6px solid white;
+	outline: none;
+	padding: 12px 20px;
+	color: white;
+	font-size: 13px;
+	text-align: left;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+	border: 1px solid rgba(0,0,0,0.3);
+	border-radius: 4px;
+	box-shadow:  0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	-webkit-transition: box-shadow .5s ease;
+	-moz-transition: box-shadow .5s ease;
+	-o-transition: box-shadow .5s ease;
+	-ms-transition: box-shadow .5s ease;
+	transition: box-shadow .5s ease;
+
+}
+button {
+  background-color: hsl(0, 100%, 90%); 
+  font-size: 16px;
+  color: black;
+  padding: 12px 28px;
+  border-radius: 12px;
+  border: 2px solid #4CAF50; /* Green */
+}
+.button:hover {background-color: #3e8e41}
